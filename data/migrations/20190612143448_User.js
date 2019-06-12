@@ -11,10 +11,10 @@ exports.up = function(knex, Promise) {
       .notNullable();
       users
       .string('department', 120)
-      .notNullable();
+      .defaultTo('webDev')
   })
 };
 
 exports.down = function(knex, Promise) {
-    return knex.schema.dropTableItExists('users')
+    return knex.schema.dropTableIfExists('users')
 };
