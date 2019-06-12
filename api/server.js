@@ -9,7 +9,12 @@ const usersRouter = require('../users/users-router.js')
 
 server.use(express.json());
 server.use(helmet());
-server.use(cors());
+server.use(cors(
+    {
+        credentials: true,
+        origin: true,
+    }
+));
 
 server.get('/', (req, res) => {
     res.send('<h1>API running!!!!! </h1>')
