@@ -38,6 +38,8 @@ class Signin extends Component {
                         onChange = {this.changeHandler}
                     />
 
+                    <button>Sign in</button>
+
                 </form>
             </div>
         );

@@ -45,6 +45,8 @@ class SignUp extends Component {
                         value = {this.state.department}
                         onChange = {this.changeHandler}
                     />
+
+                    <button>Sign up</button>
                 </form>
             </div>
         );
