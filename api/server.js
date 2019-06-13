@@ -10,10 +10,10 @@ const usersRouter = require('../users/users-router.js')
 server.use(express.json());
 server.use(helmet());
 server.use(cors(
-    {
-        credentials: true,
-        origin: true,
-    }
+    // {
+    //     credentials: true,
+    //     origin: true,
+    // }
 ));
 
 server.get('/', (req, res) => {
