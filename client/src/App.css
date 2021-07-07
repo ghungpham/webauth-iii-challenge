@@ -1,0 +1,81 @@
+.App {
+  width: 600px;
+  margin: 20px auto;
+  padding: 30px 20px;
+  font-family: 'Roboto', sans-serif; 
+  font-size: 1.2rem;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.App nav {
+  margin: 1rem;
+}
+
+nav > a {
+  margin-left: 1rem;
+  margin-right: 2rem;
+  text-decoration: none;
+  color:  #ff5733;
+}
+
+nav > button {
+  background-color: white;
+  border: 1.5px solid  #ff5733;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  color:  #ff5733;  
+}
+
+form {
+  margin: 0 auto;
+  max-width: 300px;
+  background-color: hsl(216, 33%, 97%);
+  border-radius: 4px;
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+form > div {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 0.5rem auto;
+}
+
+form input {
+width: 80%;
+height: 25px;
+}
+
+form label {
+  font-size: 0.9rem;
+  color:  #367a8c ;
+}
+
+form button {
+  width: 80px;
+  height: 25px;
+  font-size: 0.8rem;
+  margin: 0 auto;
+}
+
+.users-list h3{
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-family: 'Fugaz One', cursive;
+  background: -webkit-linear-gradient(rgb(83, 119, 36), rgb(163, 135, 11));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;; 
+}
+
+.users-list > div {
+  margin-bottom: 10px;
+  width: 200px;
+  padding: 10px 10px;
+  border: 1.5px solid  #d1f2eb ;
+  font-size: 1rem;
+  border-radius: 10px;
+}
